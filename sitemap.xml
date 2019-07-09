@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-07-09T06:56:18.273Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-07-09T06:55:31.882Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/05/SpringBoot%E7%AE%80%E4%BB%8B/</loc>
+    
+    <lastmod>2019-07-09T06:41:13.291Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-07-09T06:38:54.612Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/05/RESTful%E9%A3%8E%E6%A0%BC/</loc>
+    
+    <lastmod>2019-07-05T02:57:42.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/02/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E5%95%8A/</loc>
+    
+    <lastmod>2019-07-02T03:22:34.950Z</lastmod>
+    
+  </url>
+  
+</urlset>

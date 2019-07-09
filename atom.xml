@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-08T08:57:46.204Z</updated>
+  <updated>2019-07-09T06:41:13.291Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/07/05/SpringBoot%E7%AE%80%E4%BB%8B/"/>
     <id>http://yoursite.com/2019/07/05/SpringBoot简介/</id>
     <published>2019-07-05T06:44:19.000Z</published>
-    <updated>2019-07-08T08:57:46.204Z</updated>
+    <updated>2019-07-09T06:41:13.291Z</updated>
     
     <content type="html"><![CDATA[<p>###1）SpringBoot是什么？SpringBoot的优点？如何使用？<br><strong>SpringBoot是什么：</strong></p><p>Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。通过这种方式，Spring Boot致力于在蓬勃发展的快速应用开发领域成为领导者。  </p><p><strong>Spring Boot的优点：</strong>  </p><ol><li>方便对外输出各种形式的服务，如 REST API、WebSocket、Web、Streaming、Tasks</li><li>非常简洁的安全策略集成</li><li>支持关系数据库和非关系数据库</li><li>支持运行期内嵌容器，如 Tomcat、Jetty</li><li>强大的开发包，支持热启动</li><li>自动管理依赖</li><li>自带应用监控</li><li>支持各种 IED，如 IntelliJ IDEA 、NetBeans</li></ol><p>###2）Spring Boot 的配置文件有哪几种格式？它们有什么区别？<br><strong>两种格式：</strong><br>.properties 和 .yml，它们的区别主要是书写格式不同。<br>1）.properties  </p><pre><code>app.user.name = javastack</code></pre><a id="more"></a><p>2）.yml  </p><p><code>app:      user:        name: javastack</code></p><p>在.yml文件中书写注意：  </p><ol><li>在不同“等级”用冒号隔开  </li><li>次等级的前面是空格，不能使用制表符(tab)    </li><li>冒号之后如果有值，那么冒号和值之间至少有一个空格  </li></ol><p>###3）Sping Boot的核心注解是哪个？<br>启动类上面的注解是@SpringBootApplication，它也是 Spring Boot 的核心注解，主要组合包含了以下 3 个注解：<br><code>@SpringBootConfiguration：</code>组合了 @Configuration 注解，实现配置文件的功能。<br><code>@EnableAutoConfiguration：</code>打开自动配置的功能，也可以关闭某个自动配置的选项，如关闭数据源自动配置功能： @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })。<br><code>@ComponentScan：</code>Spring组件扫描。  </p><p>###4）Spring Boot 2.X 有什么新特性？与 1.X 有什么区别？<br>配置变更<br>JDK 版本升级<br>第三方类库升级<br>响应式 Spring 编程支持<br>HTTP/2 支持<br>配置属性绑定<br>更多改进与加强…  </p>]]></content>
     
@@ -44,6 +44,8 @@
 &lt;pre&gt;&lt;code&gt;app.user.name = javastack&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
+    
+      <category term="Spring Boot" scheme="http://yoursite.com/categories/Spring-Boot/"/>
     
     
   </entry>
