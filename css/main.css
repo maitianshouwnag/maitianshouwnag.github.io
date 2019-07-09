@@ -1741,7 +1741,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7aff96;
+  background: #1b7062;
 }
 .feed-link,
 .chat {
@@ -2932,4 +2932,36 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("https://source.unsplash.com/random/1600x900?wallpapers");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+}
+.site-meta {
+  background: #050505;
+}
+.brand {
+  color: #6495ed;
+}
+.site-subtitle {
+  color: #6495ed;
+}
+.footer {
+  color: #6495ed;
+}
+.footer a {
+  color: #6495ed;
+}
+.footer .with-love {
+  color: #6495ed;
 }
